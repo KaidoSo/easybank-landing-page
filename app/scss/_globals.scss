@@ -21,6 +21,12 @@ a, a:visited, a:hover {
     text-decoration: none;
 }
 
+// Spacing
+.container {
+    padding-left: 1.5rem; // 24px
+    padding-right: 1.5rem; // 24px
+}
+
 // Flexbox
 .flex {
     display: flex;
@@ -47,4 +53,17 @@ button, .button {
     cursor: pointer;
     color: $white;
     font-weight: 400;
+}
+
+// Visibility
+.hide-for-mobile {
+    @include breakpoint-down(medium){
+        display: none;
+    }
+}
+
+.hide-for-desktop {
+    @include breakpoint-up(large){
+        display: none;
+    }
 }
