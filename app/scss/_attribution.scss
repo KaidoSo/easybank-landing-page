@@ -1,0 +1,14 @@
+.attribution {
+    font-size: .875rem;
+    text-align: center;
+
+    a {
+        color: $darkBlue;
+        transition: fill 150ms ease-in-out;
+        
+
+        &:hover {
+            color: $limeGreen;
+        }
+    }
+}
