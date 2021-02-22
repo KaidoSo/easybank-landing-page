@@ -1,6 +1,6 @@
 # Easybank landing page
 
-[Live webpage could be viewed at: ](https://kaidoso.github.io/easybank-landing-page/)
+Live webpage could be viewed at:[https://kaidoso.github.io/easybank-landing-page/](https://kaidoso.github.io/easybank-landing-page/)
 
 ![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
 
