@@ -22,8 +22,7 @@ Users should be able to:
 <ul>
 <li>HTML5</li>
 <li>SCSS</li>
-<li>Bootstrap</li>
-<li>FontAwesome</li>
+<li>Google Fonts</li>
 <li>GIT</li>
 <li>GITHUB</li>
 <li>Firefox developer tools</li>
