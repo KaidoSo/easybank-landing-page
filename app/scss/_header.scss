@@ -1,12 +1,10 @@
 .header {
+    position: relative;
+    z-index: 1;
 
     // Hamburger open styles
     &.open {
         
-        .overlay {
-            display: block;
-        }
-
         .header__toggle {
             > span:first-child {
                 transform: rotate(45deg);
@@ -94,9 +92,9 @@
             }
 
             &::before {
-                position: absolute;
                 content: "";
                 display: block;
+                position: absolute;
                 height: 5px;
                 left: 0;
                 right: 0;
